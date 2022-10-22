@@ -18,7 +18,7 @@ public class InvoiceMicroservicesApplication {
     public static void main(String[] args) {
         SpringApplication.run(InvoiceMicroservicesApplication.class, args);
     }
-
+/*
     @Bean
     public CommandLineRunner start(InvoiceRepository invoiceRepository){
         return Args -> {
@@ -27,5 +27,5 @@ public class InvoiceMicroservicesApplication {
             items.add(item);
             invoiceRepository.insert(new Invoice(3000, InvoiceType.PAYED,items));
         };
-    }
+    }*/
 }
