@@ -1,10 +1,6 @@
 package com.lotfi.invoicemicroservices;
 
-import com.lotfi.invoicemicroservices.entities.Invoice;
-import com.lotfi.invoicemicroservices.entities.InvoiceType;
-import com.lotfi.invoicemicroservices.entities.LineItem;
-import com.lotfi.invoicemicroservices.repositories.InvoiceRepository;
-import org.springframework.boot.CommandLineRunner;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

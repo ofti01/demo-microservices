@@ -17,6 +17,7 @@ public class InvoiceDto {
     private String id;
     private Instant createdAt;
     private double total;
+    private String nameClient;
     private InvoiceType invoiceType;
     private List<LineItem> lines;
 

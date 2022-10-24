@@ -24,4 +24,5 @@ public class Invoice extends AbstractEntity {
 
     private List<LineItem> lines;
 
+    private String nameClient;
 }
